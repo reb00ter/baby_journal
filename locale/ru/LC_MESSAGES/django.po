@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-19 19:05+0300\n"
+"POT-Creation-Date: 2017-02-20 19:53+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,17 +20,81 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\journal\models.py:7
+#: .\core\models.py:9 .\journal\models.py:15
+msgid "user"
+msgstr "пользователь"
+
+#: .\core\models.py:10
+msgid "users"
+msgstr "пользователи"
+
+#: .\journal\apps.py:7
+msgid "journal"
+msgstr "журнал"
+
+#: .\journal\models.py:9
+msgid "Mother"
+msgstr "Мама"
+
+#: .\journal\models.py:10
+msgid "Father"
+msgstr "Папа"
+
+#: .\journal\models.py:16 .\journal\models.py:33 .\journal\models.py:43
+msgid "baby"
+msgstr "ребёнок"
+
+#: .\journal\models.py:17
+msgid "role"
+msgstr "роль"
+
+#: .\journal\models.py:21
+msgid "parents relation"
+msgstr "родительство" # придумать слово получше!
+
+#: .\journal\models.py:22
+msgid "parents relations"
+msgstr "родительства" # придумать слово получше!
+
+#: .\journal\models.py:26
+msgid "parent"
+msgstr "родитель"
+
+#: .\journal\models.py:27
+msgid "name"
+msgstr "имя"
+
+#: .\journal\models.py:34
+msgid "babies"
+msgstr "дети"
+
+#: .\journal\models.py:44
 msgid "time and date"
 msgstr "дата и время"
 
-#: .\journal\models.py:9
+#: .\journal\models.py:46
 msgid "title"
 msgstr "заголовок"
 
-#: .\journal\models.py:10
+#: .\journal\models.py:47
 msgid "description"
 msgstr "описание"
+
+#: .\journal\models.py:48
+msgid "weight"
+msgstr "вес"
+
+#: .\journal\models.py:49
+msgid "height"
+msgstr "рост"
+
+#: .\journal\models.py:55
+msgid "entry"
+msgstr "запись"
+
+#: .\journal\models.py:56
+msgid "entries"
+msgstr "записи"
 
 #: .\templates\index.html:4
 msgid "Main page"
